@@ -22,5 +22,20 @@ git을 제대로 공부하자
 
 ### 브런치 삭제
 ```bash
-git branch -d <branch-name>
+    git branch -d <branch-name>
+```
+
+### 생성한 브런치에 연결
+```bash
+git checkout <branch-name>
+```
+
+### 브런치에 커밋
+```bash
+    git commit -m "commit message"
+```
+
+### 브런치에 push
+```bash
+    git push origin <branch-name>
 ```
